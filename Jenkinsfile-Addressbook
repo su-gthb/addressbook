@@ -1,5 +1,5 @@
 pipeline {
-    agent {node {label 'local'}}
+    agent {node {label 'remote-local'}}
     tools {
         maven 'Apache Maven 3.6.3'
         jdk "openjdk 11.0.13"
